@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src= "/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Notizenapp</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Juri Baier</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+          
+             <li class="nav-item">
+                <label style="color:white;">Notizname:</label>
+      <input class="createNoticeInput"></input>
+      <button onclick="createNotice()" class="createNoticeBtn btn btn-secondary">Notiz erstellen</button>
+             </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="mainDiv">
+      <nav class="noticeNav">
+        <ul class="noticeList">
+
+        </ul>
+      </nav>
+      <div class="noticesDiv">
+    
+    <p class="currentSelected"></p>
+    <textarea class="area" rows="4" cols="50"></textarea>
+    <p id="content"></p>
+    </div>
+    </div>
+</body>
+<footer>
+    <script src="script.js"></script>
+</footer>
+</html>

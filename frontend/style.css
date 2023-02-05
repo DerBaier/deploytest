@@ -1,0 +1,38 @@
+#content:hover{
+background-color: rgba(105, 105, 105, 0.4);
+}
+
+#content{
+    max-width: 50vw;
+}
+
+.noticeNav{
+   
+    height: 100vh;
+    background-color: rgba(56, 56, 56, 1) !important;
+    min-width: 5vw;
+
+}
+.noticeNav ul{
+    padding:0;
+}
+
+.noticeNav li:hover{
+    background-color: rgba(83, 83, 83, 0.5)
+}
+
+.noticesDiv{
+    margin: 15px;
+}
+
+.noticeNav li{
+    font-size: 1.3em;
+    text-align: center;
+    color:whitesmoke !important;
+    padding: 15px 0;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+}
